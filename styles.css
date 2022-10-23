@@ -1,17 +1,62 @@
+body {
+    font-family: "Courier New", ui-monospace;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    margin: auto;
+}
+
+#topButtonDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+#bottomButtonDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+button:hover {
+    font-size: 18px;
+    height: 33px;
+    width: 110px;
+}
+
+
+
+
 #container {
-    width: 960px;
-    height: 960px;
+    width: 500px;
+    height: 500px;
     margin: auto;
     display: flex;
     flex-direction: column;
+    border: whitesmoke solid 1px;
+    border-radius: 15px;
+    background-color: whitesmoke;
 }
 
 .row {
     width: 100%;
     display: flex;
     flex-direction: row;
-}
-
-.fill {
-    background-color: black;
 }
